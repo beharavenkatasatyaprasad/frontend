@@ -1,0 +1,729 @@
+
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+hr{
+    padding: 0px;
+    margin: 0px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    opacity: 0.7;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+.container{
+    max-width: 1366px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logodiv{
+    float: left;
+    padding: 5px;
+}
+.logodiv img{
+    max-width: 200px;
+    height: auto;
+}
+
+
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: teal;
+    letter-spacing: 1.5px;
+    
+}
+.main-menu a.active{
+    background-color: crimson;
+    color: white;
+ }
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a , .dropdown > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: small;
+    font-family: sans-serif;
+}
+.main-menu > ul > li > a:hover{
+background-color: orange;
+color: black;
+}
+.dropdown > li > a:hover{
+    background-color: orange;
+    color: black;
+}
+
+.dropdown{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-color: teal;
+    display: none;
+    z-index: 999;
+}
+.main-menu > ul > li:hover .dropdown{
+    display: block;
+}
+  .banner{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+  }
+  
+  form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.search button:hover {
+    background: #0b7dda;
+  }
+  .searchfield{
+    float: right;
+    padding: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
+  
+.banner > img{
+    max-width: 100%;
+    height: auto;
+}
+
+.contentholder{
+    background-color: teal;
+    margin: 0px;
+}
+.content{
+    max-width: 61%;
+    height: auto;
+    padding: 2% 2% 0% 2%;
+    background-color: whitesmoke;
+    float: left;
+    font-family: sans-serif;
+    margin: 0px;
+}
+.max-content{
+    max-width: 100%;
+    height: auto;
+    padding: 2% 2% 0% 2%;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+}
+.max-content p{
+    text-align: justify;
+}
+
+.abtcontent{
+    max-width: 75%;
+    height: auto;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 1% 1% 0% 1%;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+}
+.abtcontent img{
+    max-width: 100%;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.queries{
+    min-width: 94%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    margin: 0px;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+.sidebar{
+    min-width: 33%;
+    float: left;
+    padding: 1%;
+    font-size: large;
+}
+.abtsidebar {
+    max-width: 2%;
+    float: left;
+    padding: 25px;
+    font-size: large;
+}
+.form-content{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.divform-content{
+    max-width: 25%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.abtcontent p{
+    font-size: small;
+}
+.icon {
+  padding: 10px;
+  background: crimson;
+  color: white;
+  min-width: 5px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input-field {
+  max-width: 100%;
+  padding: 10px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid crimson;
+}
+
+.tbl{
+    size: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 1%;
+}
+.divtbl{
+    size: 250px;
+    height: auto;
+    padding: 10px 10px 0px 10px;
+    margin: 0px;
+}
+
+.inp-box{
+    max-width: 100%;
+    height: auto;
+}
+
+.input-description{
+    max-width: 20%;
+    height: auto;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.submit{
+    text-align: center;
+}
+.submit-btn{
+    
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: crimson;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #555;
+  }
+
+.sidebar h4{
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 2px;
+    margin: 5px 2px 25px 2px;
+    letter-spacing: 1.5px;
+    font-size: medium !important;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.abtsidebar h4{
+    color: white;
+    font-family: sans-serif;
+    padding: 3px 2px;
+    margin: 2px 4px;
+    letter-spacing: 1.5px;
+    font-size: medium !important;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.table form{
+    float: left;
+}
+
+.mainfooter{
+    background-color: teal;
+    color: white;
+    max-width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.footerbox{
+    margin: 0%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    padding: 1% 6% 1% 5%;
+    color: white;
+}
+
+.footerbox>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.footerbox ul>li ,.address p{
+    font-size: small;
+    padding: 5px;
+    letter-spacing: 1px;
+    color: white;
+}
+address span{ 
+    font-weight: bold !important;
+    
+}
+.footerbox ul>li>a:hover{
+    color: coral;
+}
+.footerbox ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+
+.address a{
+    text-decoration: none;
+    color: white;
+}
+
+.address{
+    font-size: small;
+}
+
+.copyright{
+    max-width: 1356px;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: crimson;
+}
+.copyright a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content img{
+    max-width: 100%;
+    height: auto;
+}
+
+.cars-list{
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.cars-list img{
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    border-radius: 20px;
+    
+}
+
+.cars-list:hover{
+    background-color: #FFE4C4;
+    color: darkred;
+}
+.buy{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+.buy:hover{
+      opacity: 1;
+      background-color: #555;
+  }
+.carcontent{
+    max-width: 94%;
+    height: auto;
+    padding: 3%;
+    background-color: white;
+    float: left;
+    margin: 0px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.cars-list p{
+    font-size: small;
+}
+
+.price-buy{
+    display: inline-block;
+    padding: 0px 5%;
+}
+
+.left-right{
+    max-width: 33%;
+    float: left;
+}
+.forspace{
+    padding: 10px;
+}
+@media(max-width: 1240px){
+    .container{
+        max-width: 100%;
+        height: auto;
+        background-color: white;
+        margin: auto;
+    }
+    .left-right{
+        max-width: 100%;
+        float: none;
+    }
+    .content{
+        max-width: 98%;
+        font-size: 90%;
+        margin: 0px;
+        padding: 1%;
+        background-color: whitesmoke;
+    }
+    .search-box{
+        max-width: 100%;
+        padding: none !important;
+        text-align: center;
+        background-color: teal;
+    }
+    .sidebar{
+        min-width: 100%;
+        padding: 0%;
+        font-size: large;
+        
+    }
+    .sidebar h4{
+        color: white;
+        align-self: center;
+        min-width: 80%;
+        font-family: sans-serif;
+        letter-spacing: 1.5px;
+        font-size: 65% !important;
+        text-align: center;
+        float: none !important;
+        background-color: crimson;
+        border-radius: 10px;
+        font-size: small !important;
+    }
+    .form-content{
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .divtbl{
+        size: 250px;
+        height: auto;
+        padding: 10px 10px 0px 10px;
+        margin: 0px;
+    }
+    .divform-content{
+        max-width: 25%;
+        height: auto;
+        margin: auto;
+        align-items: center;
+    }
+    .input-container {
+      display: -ms-flexbox; 
+      display: flex;
+      max-width: 70%;
+      margin-bottom: 15px;
+    }
+    .abtcontent p{
+        font-size: small;
+    }
+    .icon {
+      padding: 10px;
+      background: crimson;
+      color: white;
+      min-width: 10px;
+      text-align: center;
+      font-size: small;
+    }
+    
+    .input-field {
+      max-width: 100%;
+      padding: 10px;
+      outline: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border: 1px solid crimson;
+    }
+    .table form{
+        float: none;
+    }
+    
+    .tbl{
+        size: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding: 1%;
+    }
+
+    .inp-box{
+        max-width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+    
+    .input-description{
+        max-width: 30%;
+        height: auto;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+        font-size: 65%;
+    }
+    .submit{
+        text-align: center;
+    }
+    .submit-btn{
+        text-align: center;
+        padding-bottom: 20px;
+        color: white;
+        letter-spacing: 2px;
+        font-size: small;
+        font-weight: normal;
+        background-color: crimson;
+        padding: 5px 10px;
+        border: none;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .submit-btn:hover {
+        background-color: #555;
+      }
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        z-index: 999;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        opacity: 0.6;
+        border-radius: 0px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+      .copyright{
+        max-width: 1356px;
+        height: auto;
+        margin: auto;
+        font-family: sans-serif;
+        font-style: italic;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: x-small;
+        background-color: crimson;
+    }
+    .main-menu{
+        align-self: center;
+        background-color: teal;
+        letter-spacing: 1.5px;
+        
+    }
+    .main-menu a.active{
+        background-color: crimson;
+        color: white;
+     }
+    .main-menu > ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+        border: black solid 0.5px;
+    }
+    .main-menu > ul > li{
+        display: inline;
+    }
+    .dropdown{
+        display: none;
+    }
+
+    .main-menu > ul > li > a , .dropdown > li > a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        border: black solid 0.2px;
+        padding: 8px;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .main-menu > ul > li > a:hover{
+    background-color: orange;
+    color: black;
+    }
+    .dropdown{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        background-color: teal;
+    }
+    form.search input[type=text] {
+        display: none;
+      }
+      .searchfield{
+          padding: 0px;
+          margin: 0px;
+      }
+      form.search button {
+        display: none;
+      }
+      
+      form.search button:hover {
+        background: #0b7dda;
+      }
+      .logodiv{
+        float: none !important;
+        padding: 0% 25% 0% 25%;
+        align-self: center;
+    }
+    .logodiv img{
+        min-width: 200px;
+        height: auto;
+        
+    }
+    .abtcontent{
+        max-width: 100%;
+        height: auto;
+        font-family: sans-serif;
+        text-align: justify;
+        padding: 1% 1% 0% 1%;
+        background-color: whitesmoke;
+        float: none;
+        margin: 0px;
+    }
+    .abtsidebar {
+        max-width: 2%;
+        float: left;
+        padding: 25px;
+        font-size: large;
+    }
+    .abtsidebar h4{
+        color: white;
+        font-family: sans-serif;
+        padding: 3px 2px;
+        margin: 2px 4px;
+        letter-spacing: 1.5px;
+        font-size: medium !important;
+        text-align: center;
+        background-color: crimson;
+        border-radius: 10px;
+    }
+  
+
+}
+
+
