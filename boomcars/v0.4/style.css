@@ -1,0 +1,889 @@
+
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+
+header{
+    background-image: url('images/headfootbg.jpg');
+}
+hr{
+    padding: 0px;
+    margin: 0px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Josefin Sans";
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    opacity: 0.7;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+.container{
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logodiv{
+    max-width: 20%;
+    height: auto;
+    float: left;
+    padding: 15px 15px 0px 10px;
+}
+.logodiv img{
+    width: 100%;
+    height: auto;
+}
+
+
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-image: url('images/mainmenubg.jpg');
+    letter-spacing: 1.5px;
+
+}
+.main-menu a.active{
+    background-image: url('images/activemenu.jpg');
+    color: white;
+ }
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a , .dropdown > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: Josefin Sans;
+}
+.main-menu > ul > li > a:hover{
+background-color: orange;
+color: black;
+}
+.dropdown > li > a:hover{
+    background-color: orange;
+    color: black;
+}
+
+.dropdown{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-color: teal;
+    display: none;
+    z-index: 999;
+}
+.main-menu > ul > li:hover .dropdown{
+    display: block;
+}
+  .banner{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    font-family: "Josefin Sans";
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #f1f1f1;
+  }
+  
+  form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #d54050;
+    font-family: "Josefin Sans";
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.search button:hover {
+    background: black;
+  }
+  .searchfield{
+    float: right;
+    padding: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
+.banner > img{
+    width: 100%;
+    height: auto;
+}
+
+.contentholder{
+    background-color: teal;
+    margin: 0px;
+}
+.content{
+    max-width: 61%;
+    height: auto;
+    padding: 2% 2% 0% 2%;
+    background-color: whitesmoke;
+    float: left;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.max-content{
+    max-width: 100%;
+    height: auto;
+    padding: 0.5% 1%;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+}
+.max-content>p,.content>p,.abtcontent>p{
+    text-align: justify;
+    color: #4B0082;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+}
+.max-content>h1,.content>h1,.abtcontent>h1{
+    max-width:100%;
+    color: #d54050;
+    letter-spacing: 1.5px;
+    font-family: "Kaushan Script",cursive !important;
+    text-transform: capitalize;
+}
+
+.abtcontent{
+    max-width: 75%;
+    height: auto;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 1% 1% 0% 1%;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+}
+.abtcontent video ,.abtcontent img{
+    width: 100%;
+    border: none;
+    height: auto;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.queries{
+    width: 94%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    margin: 0px;
+}
+.sidebar{
+    width: 33%;
+    float: left;
+    padding: 1%;
+    font-family: "Josefin Sans" !important;
+    font-size: large;
+    color: white;
+}
+.abtsidebar {
+    max-width: 2%;
+    float: left;
+    padding: 25px;
+    align-content: center;
+    font-size: large;
+}
+.form-content{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 25px;
+    align-items: center;
+}
+tbody {
+    height: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+.divform-content{
+    max-width: 25%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: black;
+  color: orange;
+  width: 10%;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input-field {
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid black;
+}
+
+.tbl,.divtbl{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    margin: auto;
+}
+.divtbl{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.inp-box{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+.abtsidebar{
+    max-width: 20%;
+    height: auto;
+
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.submit{
+    text-align: center;
+}
+.submit-btn{
+    font-family: "Josefin Sans";
+    text-align: center;
+    padding-bottom: 20px;
+    color: orange;
+    font-size: medium;
+    font-weight: none;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.sidebar h4{
+    color: whitesmoke;
+    font-family: "Kaushan Script",cursive !important;
+    padding: 1% 1%;
+    margin: 0.5% 2% 0.5% 2%;
+    letter-spacing: 1.5px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.abtsidebar h4{
+    color: orange;
+    font-family: "Kaushan Script",cursive !important;
+    padding: 3px 2px;
+    margin: 2px 4px;
+    letter-spacing: 1.5px;
+    font-size: medium !important;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.table form{
+    float: left;
+}
+
+.mainfooter{
+    background-color: teal;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.footerbox{
+    margin: 0%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    padding: 1% 6% 1% 5%;
+}
+.footerbox>ul{
+    text-align: center;
+}
+.footerbox h4{
+    size: 80%;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: large;
+    letter-spacing: 0.5px;
+    font-family: "Kanit";
+}
+.footerbox p{
+    text-align: left;
+    font-size: medium;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.address a{
+    font-size: 300;
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+.address a:hover{
+    color: coral;
+}
+.address span{
+    font-family: "Kanit";
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    font-size: medium;
+}
+.footerbox>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.footerbox ul>li{
+    font-size: medium;
+    padding: 5px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.footerbox ul>li>a:hover{
+    color: coral;
+}
+.footerbox ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+
+.address{
+    font-size: small;
+}
+
+.copyright{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 1px;
+    margin: auto;
+    color: #4B0082;
+    text-align: center;
+    letter-spacing: 1px;
+    background-image: url('images/headfootbg.jpg');
+}
+.copyright p{
+    margin: 0px;
+    padding: 1px;
+}
+.copyright a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+.copyright a:hover{
+    color: red;
+}
+
+.content img{
+    max-width: 100%;
+    height: auto;
+}
+
+.cars-list{
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    background-image: url('images/carbg.jpg');
+    border-radius: 20px;
+}
+
+.cars-list img{
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.cars-list:hover{
+    background-image: none;
+    background-color: #FFE4C4;
+    color: darkred;
+}
+.cars-list:hover h3{
+    color: darkred ;
+}
+.buy{
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+.buy:hover{
+      opacity: 1;
+      background-color: #555;
+  }
+.carcontent{
+    max-width: 94%;
+    height: auto;
+    padding: 1% 3%;
+    background-color: whitesmoke;
+    float: left;
+    margin: 0px;
+    text-align: justify;
+}
+.cars-list h3{
+    font-family: Lemon,sans-serif;
+    max-width: 100%;
+    color: black;
+    text-align: center;
+}
+.cars-list p{
+    font-size: 15px;
+    font-family: Josefin Sans,sans-serif;
+    line-height: 20px;
+}
+.price-buy p{
+    font-size: medium;
+    font-family: Josefin Sans,sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.price-buy button{
+    font-size: medium;
+    font-family: Josefin Sans,sans-serif;
+    font-weight: 400;
+}
+.price-buy{
+    display: inline-block;
+    padding: 0px 13px;
+}
+.left-right{
+    max-width: 33%;
+    float: left;
+}
+.forspace{
+    padding: 10px;
+}
+@media(max-width: 1240px){
+    .container{
+        max-width: 100%;
+        height: auto;
+        background-color: white;
+        margin: auto;
+    }
+    .banner{
+        width: 100%;
+        height: auto;
+    }
+    .banner>img{
+        width: 100%;
+        height: auto;
+    }
+    .map{
+        padding: 5px;
+        margin: 2%;
+        border-radius: 5px;
+        background-color: gainsboro;
+    }
+    .map iframe{
+        width: 100% !important;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .left-right{
+        max-width: 100%;
+        float: none;
+    }
+    .content,.abtcontent{
+        max-width: 98%;
+        font-size: 90%;
+        margin: 0px;
+        float: none;
+        padding: 1%;
+        background-color: whitesmoke;
+    }
+        .content{
+        max-width: 98%;
+        font-size: 90%;
+        margin: 0px;
+        float: none;
+        padding: 1%;
+        background-color: whitesmoke;
+    }
+    .search-box{
+        max-width: 100%;
+        padding: none !important;
+        text-align: center;
+        background-color: teal;
+    }
+    .sidebar{
+        width: 100%;
+        float: none;
+        padding: 0%;
+        font-size: large;
+        
+    }
+    .abtsidebar{
+        max-width: 100%;
+        float: none;
+        padding: 0%;
+        font-size: large;
+        
+    }
+
+    .form-content{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding-top: 10px;
+        align-items: center;
+    }
+
+    .input-container {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .icon {
+      padding: 10px;
+      background: black;
+      color: orange;
+      width: 20%;
+      text-align: center;
+      font-size: medium;
+    }
+    
+    .input-field {
+      width: 80%;
+      padding: 10px;
+      outline: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border: 2px solid black;
+    }
+
+    .inp-box{
+        width: 70%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+    
+    .input-description{
+        max-width: 100%;
+        height: auto;
+        color: white;
+        font-weight: bold;
+    }
+    .submit{
+        text-align: center;
+    }
+    .submit-btn{
+        text-align: center;
+        padding-bottom: 20px;
+        color: orange;
+        letter-spacing: 2px;
+        font-size: small;
+        font-weight: normal;
+        background-color: black;
+        padding: 5px 10px;
+        border: none;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .submit-btn:hover {
+        background-color: #555;
+        color: white;
+      }
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        z-index: 999;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-family: "Josefin Sans";
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        opacity: 0.6;
+        border-radius: 0px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+      .copyright{
+        max-width: 1356px;
+        height: auto;
+        margin: auto;
+        font-family: sans-serif;
+        font-style: italic;
+        padding: 5px;
+        color: black;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: x-small;
+        background-color: whitesmoke;
+    }
+    .copyright a:hover{
+        color: orange;
+    }
+    .main-menu{
+        align-self: center;
+        background-color: teal;
+        letter-spacing: 1.5px;
+        
+    }
+    .main-menu a.active{
+        background-color: crimson;
+        color: white;
+     }
+    .main-menu > ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+        border: black solid 0.5px;
+    }
+    .main-menu > ul > li{
+        display: inline;
+    }
+    .dropdown{
+        display: none;
+    }
+
+    .main-menu > ul > li > a , .dropdown > li > a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        border: black solid 0.2px;
+        padding: 2.5%;
+        font-size: medium;
+    }
+    .main-menu > ul > li > a:hover{
+    background-color: orange;
+    color: black;
+    }
+    .dropdown{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        background-color: teal;
+    }
+    form.search input[type=text] {
+        margin: 10px 0;
+        vertical-align: middle;
+        float: none;
+        display: none;
+      }
+      .searchfield{
+          padding: 0px;
+          margin: 0px;
+      }
+      form.search button {
+        display: none;
+      }
+      
+      form.search button:hover {
+        background: #0b7dda;
+      }
+      .logodiv{
+        max-width: 100%;
+        float: none !important;
+        padding: 0% 25% 0% 25%;
+        align-self: center;
+    }
+    .logodiv img{
+        min-width: 200px;
+        height: auto;
+        
+    }
+    .abtcontent{
+        width: 100%;
+        height: auto;
+        font-family: sans-serif;
+        text-align: justify;
+        padding: 1% 1% 0% 1%;
+        background-color: whitesmoke;
+        float: none;
+        margin: 0px;
+        
+    }
+    .abtsidebar {
+        width: 100%;
+        padding: 0%;
+        float: none;
+        align-content: center;
+        font-size: large;
+    }
+    .queries{
+        height: auto;
+        padding: 1%;
+        float: none;
+        margin: 0px;
+    }
+    .sidebar h4{
+        width: 80%;
+        height: auto;
+        color: black;
+        font-family: "Kaushan Script",cursive !important;
+        padding: 0px;
+        margin: 5% 2% 2.5% 2%;
+        letter-spacing: 1.5px;
+        text-align: center;
+        background-color: transparent;
+    }
+    .abtsidebar h4{
+        width: 100%;
+        height: auto;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Kaushan Script",cursive !important;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 0px;
+        text-align: center;
+        letter-spacing: auto;
+        background-color:transparent;
+        letter-spacing: 1.5px;
+    }
+  
+    .footerbox{
+        margin: 0%;
+        height: auto;
+        float: none;
+        text-align: center;
+        padding: 1% 6% 1% 5%;
+    }
+    .address span{
+        font-family: "Kanit";
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        font-size: medium;
+    }
+    .address p{
+        text-align: center;
+        font-size: small;
+        letter-spacing: 1px;
+    }
+    .sidebar h4{
+        color: whitesmoke;
+        padding: 0% 0% 0% 5%;
+        margin: 2%;
+        size: 1.5em;
+    }
+    .queries{
+        margin: auto;
+    }
+    
+}
+
+
+@media screen and (max-width:450px){
+    .tbl td{
+        display: block;
+        align-items: center;
+    }
+
+    .input-description{
+        letter-spacing: 1.5px;
+        font-weight: bold ;
+    }
+    .icon{
+        width: 10%;
+    }
+    .input-field{
+        width: 90%;
+    }
+    .inp-box{
+        width: 100%;
+    }
+}
